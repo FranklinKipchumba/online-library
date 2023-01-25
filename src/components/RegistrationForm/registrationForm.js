@@ -8,6 +8,7 @@ function RegisterForm() {
     passwordConfirm: ''
   });
 
+  
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevState) => ({
